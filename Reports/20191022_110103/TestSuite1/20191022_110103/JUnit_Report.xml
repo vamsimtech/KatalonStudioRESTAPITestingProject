@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="TestSuite1" time="12" tests="2" failures="0" errors="0">
+    <testsuite name="TestSuite1" tests="2" failures="0" errors="0" time="12" timestamp="2019-10-22 11:01:12" hostname="vamsipc - HP-Laptop" id="Test Suites/TestSuite1">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="E:\\vamsi_programs_2019\\6_katalon_studio_programs\\SampleRestAPITestingProject\\Reports\\20191022_110103\\TestSuite1\\20191022_110103"/>
+            <property name="logFiles" value="E:\\vamsi_programs_2019\\6_katalon_studio_programs\\SampleRestAPITestingProject\\Reports\\20191022_110103\\TestSuite1\\20191022_110103\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="vamsipc - HP-Laptop"/>
+            <property name="hostAddress" value="172.26.192.1"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.3.2.1"/>
+        </properties>
+        <testcase name="Test Cases/APIChainingDemo" classname="Test Cases/APIChainingDemo" status="PASSED">
+            <system-out>2019-10-22 11:01:12 - [TEST_CASE][PASSED] - Test Cases/APIChainingDemo: Test Cases/APIChainingDemo&#xD;
+&#xD;
+2019-10-22 11:01:13 - [TEST_STEP][PASSED] - response1 = sendRequest(findTestObject("RESTWebServices/ListUsers")): Send request successfully&#xD;
+&#xD;
+2019-10-22 11:01:18 - [MESSAGE][INFO] - HAR: E:\vamsi_programs_2019\6_katalon_studio_programs\SampleRestAPITestingProject\Reports\20191022_110103\TestSuite1\20191022_110103\requests\main\0.har&#xD;
+&#xD;
+2019-10-22 11:01:18 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-10-22 11:01:18 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null&#xD;
+&#xD;
+2019-10-22 11:01:18 - [TEST_STEP][PASSED] - result = slurper.parseText(response1.getResponseBodyContent()): null&#xD;
+&#xD;
+2019-10-22 11:01:18 - [TEST_STEP][PASSED] - value = first_name: null&#xD;
+&#xD;
+2019-10-22 11:01:18 - [TEST_STEP][PASSED] - println("..value extracted is " + value): null&#xD;
+&#xD;
+2019-10-22 11:01:18 - [TEST_STEP][PASSED] - println("...Global variable is :" + UserName): null&#xD;
+&#xD;
+2019-10-22 11:01:19 - [TEST_STEP][PASSED] - sendRequest(findTestObject("RESTWebServices/UpdateUser", ["UserName":value])): Send request successfully&#xD;
+&#xD;
+2019-10-22 11:01:20 - [MESSAGE][INFO] - HAR: E:\vamsi_programs_2019\6_katalon_studio_programs\SampleRestAPITestingProject\Reports\20191022_110103\TestSuite1\20191022_110103\requests\main\1.har&#xD;
+&#xD;
+2019-10-22 11:01:20 - [MESSAGE][PASSED] - Send request successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/SampleTestOne" classname="Test Cases/SampleTestOne" status="PASSED">
+            <system-out>2019-10-22 11:01:20 - [TEST_CASE][PASSED] - Test Cases/SampleTestOne: Test Cases/SampleTestOne&#xD;
+&#xD;
+2019-10-22 11:01:21 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("RESTWebServices/ListUsers")): Send request and verify the response successfully&#xD;
+&#xD;
+2019-10-22 11:01:21 - [MESSAGE][INFO] - HAR: E:\vamsi_programs_2019\6_katalon_studio_programs\SampleRestAPITestingProject\Reports\20191022_110103\TestSuite1\20191022_110103\requests\main\2.har&#xD;
+&#xD;
+2019-10-22 11:01:21 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully&#xD;
+&#xD;
+2019-10-22 11:01:22 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null&#xD;
+&#xD;
+2019-10-22 11:01:22 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null&#xD;
+&#xD;
+2019-10-22 11:01:22 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-10-22 11:01:22 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-10-22 11:01:22 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null&#xD;
+&#xD;
+2019-10-22 11:01:22 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[1].last_name", "Ferguson"): Verify element property value successfully&#xD;
+&#xD;
+2019-10-22 11:01:23 - [MESSAGE][PASSED] - Verify element property value successfully&#xD;
+&#xD;
+2019-10-22 11:01:23 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].first_name", "Michael"): Verify element property value successfully&#xD;
+&#xD;
+2019-10-22 11:01:23 - [MESSAGE][PASSED] - Verify element property value successfully&#xD;
+&#xD;
+2019-10-22 11:01:23 - [MESSAGE][PASSED] - Verify response successfully&#xD;
+&#xD;
+2019-10-22 11:01:23 - [MESSAGE][PASSED] - Send request and verify the response successfully&#xD;
+&#xD;
+2019-10-22 11:01:23 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("RESTWebServices/CreateUser")): Send request and verify the response successfully&#xD;
+&#xD;
+2019-10-22 11:01:24 - [MESSAGE][INFO] - HAR: E:\vamsi_programs_2019\6_katalon_studio_programs\SampleRestAPITestingProject\Reports\20191022_110103\TestSuite1\20191022_110103\requests\main\3.har&#xD;
+&#xD;
+2019-10-22 11:01:24 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully&#xD;
+&#xD;
+2019-10-22 11:01:24 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null&#xD;
+&#xD;
+2019-10-22 11:01:25 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null&#xD;
+&#xD;
+2019-10-22 11:01:25 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 201): Verify response status code successfully&#xD;
+&#xD;
+2019-10-22 11:01:25 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-10-22 11:01:25 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(201): null&#xD;
+&#xD;
+2019-10-22 11:01:25 - [MESSAGE][PASSED] - Verify response successfully&#xD;
+&#xD;
+2019-10-22 11:01:25 - [MESSAGE][PASSED] - Send request and verify the response successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-10-22 11:01:12 - [TEST_SUITE][INCOMPLETE] - TestSuite1: null</system-out>
+        <system-err>2019-10-22 11:01:12 - [TEST_SUITE][INCOMPLETE] - TestSuite1: null</system-err>
+    </testsuite>
+</testsuites>

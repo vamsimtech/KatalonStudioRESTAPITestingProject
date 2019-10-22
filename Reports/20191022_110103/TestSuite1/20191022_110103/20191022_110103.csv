@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite1,,,,2019-10-22 11:01:12,2019-10-22 11:01:25,12.777s,INCOMPLETE
+,,,,,,,
+Test Cases/APIChainingDemo,,,,2019-10-22 11:01:12,2019-10-22 11:01:20,7.719s,PASSED
+"response1 = sendRequest(findTestObject(""RESTWebServices/ListUsers""))",,,,2019-10-22 11:01:13,2019-10-22 11:01:18,5.110s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2019-10-22 11:01:18,2019-10-22 11:01:18,0.027s,PASSED
+result = slurper.parseText(response1.getResponseBodyContent()),,,,2019-10-22 11:01:18,2019-10-22 11:01:18,0.064s,PASSED
+value = first_name,,,,2019-10-22 11:01:18,2019-10-22 11:01:18,0.016s,PASSED
+"println(""..value extracted is "" + value)",,,,2019-10-22 11:01:18,2019-10-22 11:01:18,0.008s,PASSED
+"println(""...Global variable is :"" + UserName)",,,,2019-10-22 11:01:18,2019-10-22 11:01:19,0.253s,PASSED
+"sendRequest(findTestObject(""RESTWebServices/UpdateUser"", [""UserName"":value]))",,,,2019-10-22 11:01:19,2019-10-22 11:01:20,1.620s,PASSED
+,,,,,,,
+Test Cases/SampleTestOne,,,,2019-10-22 11:01:20,2019-10-22 11:01:25,4.493s,PASSED
+"sendRequestAndVerify(findTestObject(""RESTWebServices/ListUsers""))",,,,2019-10-22 11:01:21,2019-10-22 11:01:23,2.181s,PASSED
+"sendRequestAndVerify(findTestObject(""RESTWebServices/CreateUser""))",,,,2019-10-22 11:01:23,2019-10-22 11:01:25,2.008s,PASSED

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="DataDrivenDemo" time="10" tests="3" failures="0" errors="0">
+    <testsuite name="DataDrivenDemo" tests="3" failures="0" errors="0" time="10" timestamp="2019-10-22 11:38:34" hostname="vamsipc - HP-Laptop" id="Test Suites/DataDrivenDemo">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="E:\\vamsi_programs_2019\\6_katalon_studio_programs\\SampleRestAPITestingProject\\Reports\\20191022_113825\\DataDrivenDemo\\20191022_113825"/>
+            <property name="logFiles" value="E:\\vamsi_programs_2019\\6_katalon_studio_programs\\SampleRestAPITestingProject\\Reports\\20191022_113825\\DataDrivenDemo\\20191022_113825\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="vamsipc - HP-Laptop"/>
+            <property name="hostAddress" value="172.26.192.1"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.3.2.1"/>
+        </properties>
+        <testcase name="Test Cases/DataDrivenDemoTest" classname="Test Cases/DataDrivenDemoTest" status="PASSED">
+            <system-out>2019-10-22 11:38:35 - [TEST_CASE][PASSED] - Test Cases/DataDrivenDemoTest: Test Cases/DataDrivenDemoTest&#xD;
+&#xD;
+2019-10-22 11:38:36 - [TEST_STEP][PASSED] - println("...using username is" + user): null&#xD;
+&#xD;
+2019-10-22 11:38:36 - [TEST_STEP][PASSED] - sendRequest(findTestObject("RESTWebServices/CreateUser", ["username":user])): Send request successfully&#xD;
+&#xD;
+2019-10-22 11:38:41 - [MESSAGE][INFO] - HAR: E:\vamsi_programs_2019\6_katalon_studio_programs\SampleRestAPITestingProject\Reports\20191022_113825\DataDrivenDemo\20191022_113825\requests\main\0.har&#xD;
+&#xD;
+2019-10-22 11:38:41 - [MESSAGE][PASSED] - Send request successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/DataDrivenDemoTest" classname="Test Cases/DataDrivenDemoTest" status="PASSED">
+            <system-out>2019-10-22 11:38:41 - [TEST_CASE][PASSED] - Test Cases/DataDrivenDemoTest: Test Cases/DataDrivenDemoTest&#xD;
+&#xD;
+2019-10-22 11:38:42 - [TEST_STEP][PASSED] - println("...using username is" + user): null&#xD;
+&#xD;
+2019-10-22 11:38:42 - [TEST_STEP][PASSED] - sendRequest(findTestObject("RESTWebServices/CreateUser", ["username":user])): Send request successfully&#xD;
+&#xD;
+2019-10-22 11:38:43 - [MESSAGE][INFO] - HAR: E:\vamsi_programs_2019\6_katalon_studio_programs\SampleRestAPITestingProject\Reports\20191022_113825\DataDrivenDemo\20191022_113825\requests\main\1.har&#xD;
+&#xD;
+2019-10-22 11:38:43 - [MESSAGE][PASSED] - Send request successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/DataDrivenDemoTest" classname="Test Cases/DataDrivenDemoTest" status="PASSED">
+            <system-out>2019-10-22 11:38:43 - [TEST_CASE][PASSED] - Test Cases/DataDrivenDemoTest: Test Cases/DataDrivenDemoTest&#xD;
+&#xD;
+2019-10-22 11:38:43 - [TEST_STEP][PASSED] - println("...using username is" + user): null&#xD;
+&#xD;
+2019-10-22 11:38:43 - [TEST_STEP][PASSED] - sendRequest(findTestObject("RESTWebServices/CreateUser", ["username":user])): Send request successfully&#xD;
+&#xD;
+2019-10-22 11:38:44 - [MESSAGE][INFO] - HAR: E:\vamsi_programs_2019\6_katalon_studio_programs\SampleRestAPITestingProject\Reports\20191022_113825\DataDrivenDemo\20191022_113825\requests\main\2.har&#xD;
+&#xD;
+2019-10-22 11:38:45 - [MESSAGE][PASSED] - Send request successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-10-22 11:38:34 - [TEST_SUITE][INCOMPLETE] - DataDrivenDemo: null</system-out>
+        <system-err>2019-10-22 11:38:34 - [TEST_SUITE][INCOMPLETE] - DataDrivenDemo: null</system-err>
+    </testsuite>
+</testsuites>
